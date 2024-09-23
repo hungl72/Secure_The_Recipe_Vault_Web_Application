@@ -1,0 +1,22 @@
+# Identify tools that will allow you to do the following:
+
+## Scan infrastructure as code templates
+Regula - https://github.com/fugue/regula
+
+### Example vulnerability
+IAM policy is granted full administrative rights ("*:*")
+
+##Scan AMI’s or containers for OS vulnerabilities
+Clair: https://github.com/quay/clair
+
+### Example vulnerability
+Potential risks to database security and vulnerabilities in legacy images
+CVE: https://cve.mitre.org/
+
+##Scan an AWS environment for cloud configuration vulnerabilities
+AWS Config: https://aws.amazon.com/config/
+
+### Example vulnerability
+Public access for S3 Buckets
+Not enable MFA for users
+Unsecured users

@@ -1,0 +1,13 @@
+Research and analyze which of the vulnerabilities appear to be related to the code that was deployed for the environment in this project.
+
+AWS SecurityHub
+Ensure MFA is enabled for the "root" account
+Ensure hardware MFA is enabled for the "root" account
+Ensure no security groups allow ingress from 0.0.0.0/0 or ::/0 to port 22
+Ensure the default security group of every VPC restricts all traffic
+Ensure IAM policies that allow full "*:*" administrative privileges are not created
+
+Bonus - provide recommendations on how to remediate the vulnerabilities.
+Enable VPC flow logging
+Remove public access for EC2 instances
+Enable encrypt S3 buckets
